@@ -9,6 +9,7 @@
     <title>Mi Primera Pagina Web</title>
     <link rel="stylesheet" href="css/fondo.css">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
 
     <!--Insertar codigo CSS-->
     <style>
@@ -36,15 +37,15 @@
     <h1 class="TituloPrincipal" id="TituloIndex" style="color: rgb(145, 37, 46)">Bienvenidos a mi Proyecto</h1>
     <h2>Mi primera pagina web</h2>
     <h3>Profesor Rubén Alejandro Ramirez</h3>
-    <h4>Texto escrito en h4</h4>
+    <h4 id="tituloh4">Texto escrito en h4</h4>
     <h5>Texto escrito en h5</h5>
     <h6>Texto escrito en h6</h6>
     <!--Inserta una linea horizontal (Deprecado)-->
     <hr />  
     <!--al insertar imagenes el atributo mas importante es src (source) que define
     la ubicacion de la imagen a insertar-->  
-    <a href="https://www.youtube.com/watch?v=r7qovpFAGrQ" >
-        <img src="img/logoisp20.png" alt="Logo Instituto" width="200px" />
+    <a href="https://www.youtube.com/watch?v=r7qovpFAGrQ" target="_blank" >
+        <img id="logo" src="img/logoisp20.png" alt="Logo Instituto" width="200px"  />
     </a>
     <!--marquee (marquesina)= muestra un texto en movimientio (deprecada)-->
     <marquee>Prueba Ndeaaahh </marquee> 
@@ -87,12 +88,12 @@
     </table>
     <!--CREAMOS UN ENLACE CON LA ETIQUETA A 
     SU ATRIBUTO href NOS PERMITE INDICAR HACIA DONDE NOS REFERENCIA EL ENLACE-->
-    <a href="http://www.google.com">Buscar en Google</a>
+    <a href="http://www.google.com" target="_blank">Buscar en Google</a>
 
     <!--BR es una etiqueta para insertar un enter -->
     <br />
     
-    <a class="TituloPrincipal" href="formulario.html">Ingresar al formulario</a>
+    <a class="TituloPrincipal" href="formulario.html" target="_blank">Ingresar al formulario</a>
   </div>
   </div>
 </body>
