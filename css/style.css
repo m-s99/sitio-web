@@ -45,6 +45,7 @@ header nav ul li span{
 
 header nav ul li a:hover{
     background:rgb(75, 121, 126);
+    color:#fff;
 }
 
 section{
@@ -63,7 +64,7 @@ section{
     header nav ul li{
         display: block;
         float:none;
-        border-bottom:1px solid rgba(255,255,255,.3);
+        border-bottom:1px solid rgba(255, 255, 255, .3);
     }
 
     .menu_bar{
