@@ -14,7 +14,7 @@ function main(){
             $('nav').animate({
                 left:'-100%'
             });
-            contador
+            contador=1;
         }
     });
 };
