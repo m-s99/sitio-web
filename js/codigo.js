@@ -1,7 +1,7 @@
 $(document).ready(
     function ()
     {
-              $("#fondo").fadeIn(1``000);
+              $("#fondo").fadeIn(1000);
               $("#tituloh4").bind("click", mostrarOcultarTitulo);
     }
 
